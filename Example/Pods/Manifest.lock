@@ -1,0 +1,16 @@
+PODS:
+  - VisionScanner (1.0.0)
+
+DEPENDENCIES:
+  - VisionScanner (from `../`)
+
+EXTERNAL SOURCES:
+  VisionScanner:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  VisionScanner: 5540d0c5d193253c7545b26cf781137b2d07fda1
+
+PODFILE CHECKSUM: 995364e68bb0d75a7349ebb20ea69b86f291cd2e
+
+COCOAPODS: 1.5.0

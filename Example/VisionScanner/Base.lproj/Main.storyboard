@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="dLm-zc-vn4">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Icq-WA-aYK">
+            <objects>
+                <viewController id="dLm-zc-vn4" customClass="ViewController" customModule="VisionScanner_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CoW-kT-cks"/>
+                        <viewControllerLayoutGuide type="bottom" id="yBM-WW-pkU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6g4-92-rXa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UCD-4G-Vp6">
+                                <rect key="frame" x="0.0" y="20" width="375" height="333.5"/>
+                            </containerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cyy-1j-q0g">
+                                <rect key="frame" x="16" y="363.5" width="343" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="q6r-KI-aTR"/>
+                                </constraints>
+                                <state key="normal" title="Start Scanner"/>
+                                <connections>
+                                    <action selector="startScanner:" destination="dLm-zc-vn4" eventType="touchUpInside" id="kJS-CF-cxa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nC8-Kz-7vT">
+                                <rect key="frame" x="16" y="403.5" width="343" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="id4-LG-XaO"/>
+                                </constraints>
+                                <state key="normal" title="Stop Scanner"/>
+                                <connections>
+                                    <action selector="stopScanner:" destination="dLm-zc-vn4" eventType="touchUpInside" id="M8B-oj-VrP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dQT-BL-v6R">
+                                <rect key="frame" x="16" y="443.5" width="343" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="2yI-SK-Y2D"/>
+                                </constraints>
+                                <state key="normal" title="Pause Scanner"/>
+                                <connections>
+                                    <action selector="pauseScanner:" destination="dLm-zc-vn4" eventType="touchUpInside" id="0sZ-4o-OET"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m4G-Vc-tli">
+                                <rect key="frame" x="16" y="517" width="343" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="zKz-N7-6hd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="UCD-4G-Vp6" firstAttribute="leading" secondItem="6g4-92-rXa" secondAttribute="leading" id="04w-QI-5yp"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Cyy-1j-q0g" secondAttribute="trailing" id="0EE-6E-n6I"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dQT-BL-v6R" secondAttribute="trailing" id="6JJ-1k-J9Y"/>
+                            <constraint firstItem="Cyy-1j-q0g" firstAttribute="leading" secondItem="6g4-92-rXa" secondAttribute="leadingMargin" id="GSu-hb-dhe"/>
+                            <constraint firstItem="Cyy-1j-q0g" firstAttribute="top" secondItem="UCD-4G-Vp6" secondAttribute="bottom" constant="10" id="Kvh-sL-knb"/>
+                            <constraint firstItem="nC8-Kz-7vT" firstAttribute="leading" secondItem="6g4-92-rXa" secondAttribute="leadingMargin" id="X7A-gu-BCO"/>
+                            <constraint firstItem="dQT-BL-v6R" firstAttribute="top" secondItem="nC8-Kz-7vT" secondAttribute="bottom" constant="10" id="bRp-Ds-2wb"/>
+                            <constraint firstItem="m4G-Vc-tli" firstAttribute="trailing" secondItem="6g4-92-rXa" secondAttribute="trailingMargin" id="djX-KQ-WBF"/>
+                            <constraint firstItem="yBM-WW-pkU" firstAttribute="top" secondItem="m4G-Vc-tli" secondAttribute="bottom" id="eG8-ZH-8yF"/>
+                            <constraint firstItem="dQT-BL-v6R" firstAttribute="leading" secondItem="6g4-92-rXa" secondAttribute="leadingMargin" id="g1T-Td-cLF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="nC8-Kz-7vT" secondAttribute="trailing" id="giX-zt-5OT"/>
+                            <constraint firstItem="UCD-4G-Vp6" firstAttribute="top" secondItem="CoW-kT-cks" secondAttribute="bottom" id="iDF-cT-YbS"/>
+                            <constraint firstAttribute="trailing" secondItem="UCD-4G-Vp6" secondAttribute="trailing" id="ng6-Rv-22I"/>
+                            <constraint firstItem="m4G-Vc-tli" firstAttribute="leading" secondItem="6g4-92-rXa" secondAttribute="leadingMargin" id="q17-Is-qk4"/>
+                            <constraint firstItem="UCD-4G-Vp6" firstAttribute="height" secondItem="6g4-92-rXa" secondAttribute="height" multiplier="0.5" id="uXx-i7-vta"/>
+                            <constraint firstItem="nC8-Kz-7vT" firstAttribute="top" secondItem="Cyy-1j-q0g" secondAttribute="bottom" constant="10" id="wK4-fF-b0W"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="containerView" destination="UCD-4G-Vp6" id="OGX-Yp-KGf"/>
+                        <outlet property="resultLabel" destination="m4G-Vc-tli" id="cpl-VE-y2a"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jfu-LW-n3s" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="bP2-4d-f53"/>
+            </objects>
+            <point key="canvasLocation" x="21.600000000000001" y="31.934032983508249"/>
+        </scene>
+    </scenes>
+</document>
