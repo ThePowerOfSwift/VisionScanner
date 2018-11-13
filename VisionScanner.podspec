@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'VisionScanner'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Start scanning barcodes using Apple\'s Vision Framework.'
 
   s.description      = <<-DESC
