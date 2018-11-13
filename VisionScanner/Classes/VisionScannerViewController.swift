@@ -26,31 +26,40 @@ public enum VisionScannerState: Equatable {
 
 public class VisionScannerViewController: UIViewController {
     
-    @IBOutlet private var previewView: VisionPreviewView!
+    private var previewView = VisionPreviewView(frame: .zero)
     
     private var captureSession: AVCaptureSession!
     private var requests = [VNRequest]()
     
     private var captureVideoOutput: AVCaptureVideoDataOutput!
-    private var logger:VisionScannerLogger?
+    private var logger: VisionScannerLogger?
     
     public weak var visionDelegate: VisionScannerDelegate?
     public var currentState: VisionScannerState = .stopped
     
-    public class func instantiate(logger:VisionScannerLogger? = nil) -> VisionScannerViewController {
-        let storyboardBundle = Bundle(identifier: "org.cocoapods.VisionScanner")        
-        let storyboard = UIStoryboard(name: "VisionScanner", bundle: storyboardBundle)
-        guard let vc = storyboard.instantiateViewController(withIdentifier: "VisionScannerViewController") as? VisionScannerViewController
-              else { fatalError("Could not found VisionScannerViewController") }
-        vc.logger = logger
-        return vc
+    public init(logger: VisionScannerLogger? = nil) {
+        self.logger = logger
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
     }
 
     override public func viewDidLoad() {
         super.viewDidLoad()
+        initUI()
         configureVideoCaptureSession()
     }
     
+    private func initUI() {
+        view.addSubview(previewView)
+        previewView.translatesAutoresizingMaskIntoConstraints = false
+        previewView.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
+        previewView.leftAnchor.constraint(equalTo: view.leftAnchor).isActive = true
+        previewView.rightAnchor.constraint(equalTo: view.rightAnchor).isActive = true
+        previewView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
+    }
 
     private func configureVideoCaptureSession() {
         guard let videoCaptureDevice = AVCaptureDevice.default(for: AVMediaType.video) else {

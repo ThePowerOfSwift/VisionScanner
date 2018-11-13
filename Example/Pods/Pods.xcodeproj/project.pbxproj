@@ -7,168 +7,109 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01A1EE583CBEAEBF1B316613430740A2 /* VisionScanner.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3A488AE878019541A20A0CCE09D1DA67 /* VisionScanner.bundle */; };
-		41A65BAB218C25B2007D7C8A /* VisionScanner.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86AAAA83DFD16C88CA325E89C025DE0 /* VisionScanner.storyboard */; };
-		41A65BAC218C269D007D7C8A /* VisionScanner.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86AAAA83DFD16C88CA325E89C025DE0 /* VisionScanner.storyboard */; };
-		48B692F775109BB2EEA4A958AB984440 /* VisionScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E1731620D453D13FA164371796E45A /* VisionScanner-dummy.m */; };
-		687B2F67FAB687F505E88B40EFEC0C90 /* Pods-VisionScanner_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 507516DFA052B92F4BD5BD1D3B0C3481 /* Pods-VisionScanner_Tests-dummy.m */; };
-		69125879A3F928E42111E0A1E98C96A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		6B048DEC4DBED4B13098F22953432627 /* VisionPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189B857E9B767C6FD9D52AC3B6D7603C /* VisionPreviewView.swift */; };
-		707BA211636C77190FAC795CE58718FF /* Pods-VisionScanner_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AED3C3B731CAFE2C3615E4F780B5896 /* Pods-VisionScanner_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B02231E6B17C0C52BDBD529DE736EC6A /* VisionScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71145F0FAB975136C4AE591E5EE0984 /* VisionScannerViewController.swift */; };
-		B6E3864B08743931FF52C088F4A4E6A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		C453B32EFB337DC45F4F6FE09F44624B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		CAF02E92E6419E43B06DF259E93FF021 /* VisionScanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F57AA1FBAFF6E5207ED135021F24817 /* VisionScanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CB979394F97F6FCB78E6AB65ED4F2A14 /* Pods-VisionScanner_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12059B7DD0B4543D6D9D66C06B4E6776 /* Pods-VisionScanner_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EB30CC454F7CC3BEC881E20487995B6E /* Pods-VisionScanner_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 016294DF64A62E6C6F94C668057E8167 /* Pods-VisionScanner_Example-dummy.m */; };
+		0AC20C473F048AB8B38402F094FDF824 /* Pods-VisionScanner_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 507516DFA052B92F4BD5BD1D3B0C3481 /* Pods-VisionScanner_Tests-dummy.m */; };
+		18B1822DE8E0B735F2BF1E820A410440 /* Pods-VisionScanner_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12059B7DD0B4543D6D9D66C06B4E6776 /* Pods-VisionScanner_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B01650AC4B6A6A839FCF2ADBA478AEE /* VisionScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23564E1B8C3384A216E53FB501ADDFE4 /* VisionScannerViewController.swift */; };
+		3511579C7DF1CB0327005EA79D6C789F /* VisionScanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD42FCB14B51D79020EA5AF1BF7CDF1B /* VisionScanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		472DC52BE68B71EF7E3421361A7618EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		60F989A072E25C0C98F7066CEA6F96E3 /* Pods-VisionScanner_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AED3C3B731CAFE2C3615E4F780B5896 /* Pods-VisionScanner_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89B634B243B6B234EA2633F11007B08F /* Pods-VisionScanner_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 016294DF64A62E6C6F94C668057E8167 /* Pods-VisionScanner_Example-dummy.m */; };
+		BDE6E30076D03C5F5198D3C73F556629 /* VisionScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E605101E28A7A28AF8393859CCA4BF /* VisionScanner-dummy.m */; };
+		CCBF40FB791A2F3FC539628AED0C0FB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		DA32708CB98F92548CF6D6CC01302D80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		F2DABD934F3A4F45A3A7FD21889C7E42 /* VisionPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C332519E4B11F7AF1DB8B47BE4E9421E /* VisionPreviewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AC216F3FB126A224544A2BD1CF99BADE /* PBXContainerItemProxy */ = {
+		2E4A0437B02FBC76B93B3BD7BD5ECE66 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 37F173EAAA5EDEC5DD39D2F3DB830EA9;
+			remoteGlobalIDString = BB713D57828038872BFE8BA58BC1A671;
 			remoteInfo = "Pods-VisionScanner_Example";
 		};
-		B1941D0B5531AE3A71DAE9C9C500A2E2 /* PBXContainerItemProxy */ = {
+		72BEA66C5AAEF0890678B72FC8471CD2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DB2B45F0AA3716ADAE61E85CD8BC3E3C;
+			remoteGlobalIDString = 1606738F9F75150541843022475A2E1D;
 			remoteInfo = VisionScanner;
-		};
-		DF8E40DF9357D68BA090F9A1EE6456DA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 451BE0FC5C2FAD9A151E2EDC81E2A2B7;
-			remoteInfo = "VisionScanner-VisionScanner";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		016294DF64A62E6C6F94C668057E8167 /* Pods-VisionScanner_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VisionScanner_Example-dummy.m"; sourceTree = "<group>"; };
+		04E605101E28A7A28AF8393859CCA4BF /* VisionScanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VisionScanner-dummy.m"; sourceTree = "<group>"; };
+		080856637D204CB5DCA9335A891CF693 /* Pods_VisionScanner_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VisionScanner_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		08FCA83BDD83BD82CCFF9B7CEBCED2FA /* Pods-VisionScanner_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VisionScanner_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0EF8250649998318089FF665E6BB8E06 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		100616C62B0D27CA87D6443EB171BA56 /* Pods-VisionScanner_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VisionScanner_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		10657426B209021DFCDEB3C1AAD8AF12 /* Pods-VisionScanner_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VisionScanner_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		12059B7DD0B4543D6D9D66C06B4E6776 /* Pods-VisionScanner_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VisionScanner_Example-umbrella.h"; sourceTree = "<group>"; };
-		17E1731620D453D13FA164371796E45A /* VisionScanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VisionScanner-dummy.m"; sourceTree = "<group>"; };
-		189B857E9B767C6FD9D52AC3B6D7603C /* VisionPreviewView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VisionPreviewView.swift; path = VisionScanner/Classes/VisionPreviewView.swift; sourceTree = "<group>"; };
+		23564E1B8C3384A216E53FB501ADDFE4 /* VisionScannerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VisionScannerViewController.swift; path = VisionScanner/Classes/VisionScannerViewController.swift; sourceTree = "<group>"; };
 		283FAD4B4D267C25546660EE89A21713 /* Pods-VisionScanner_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VisionScanner_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2B7CE57BB6D953B039B938624BA50987 /* VisionScanner.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = VisionScanner.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		33A1C385F0E3C3C855C2328BB7F5808D /* Pods-VisionScanner_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VisionScanner_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		378969D99CC59AAFB80296F9349366D8 /* Pods_VisionScanner_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VisionScanner_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A95D4A8CA7A766E8E950D7FBB420E2 /* Pods-VisionScanner_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VisionScanner_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		3A488AE878019541A20A0CCE09D1DA67 /* VisionScanner.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisionScanner.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CE210887BB7471C04B3A7A428EA7398 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4987B260C94F6D464631CABBE4915680 /* Pods-VisionScanner_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VisionScanner_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		49903D111C56A873AE1043911F6196B3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4F85FFBCB170E3905A599C397A8AC97B /* VisionScanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VisionScanner.modulemap; sourceTree = "<group>"; };
 		507516DFA052B92F4BD5BD1D3B0C3481 /* Pods-VisionScanner_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VisionScanner_Tests-dummy.m"; sourceTree = "<group>"; };
-		5AB381BF7FB7C645AB4237F57D67DF2D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		684616AC0F2AE587D1FB9196E05677C5 /* Pods_VisionScanner_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VisionScanner_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A2C9532D764C18D89B1C25FD5A0690B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		6AED3C3B731CAFE2C3615E4F780B5896 /* Pods-VisionScanner_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VisionScanner_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6EC6476251B25440CB9563B3873EF0D2 /* Pods-VisionScanner_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VisionScanner_Example-resources.sh"; sourceTree = "<group>"; };
-		724A80D9F27AB29BD646F61B7704E3E2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		7262F34CF7CD56D6DD630D3FF3B6C836 /* VisionScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VisionScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F57AA1FBAFF6E5207ED135021F24817 /* VisionScanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VisionScanner-umbrella.h"; sourceTree = "<group>"; };
 		81B080BD3361D47273744E10CAA1C48F /* Pods-VisionScanner_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VisionScanner_Example.modulemap"; sourceTree = "<group>"; };
 		84D9776D3F6DB4CE2CE73009AC9788D0 /* Pods-VisionScanner_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VisionScanner_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		869CCC46AC8DF6966B64BEAFED77520A /* ResourceBundle-VisionScanner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-VisionScanner-Info.plist"; sourceTree = "<group>"; };
+		8F86122658BDFA477C6DBE0D7B86FF1D /* VisionScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VisionScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FA13ECCB907FB011B0FEE6D56B07543 /* VisionScanner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VisionScanner.xcconfig; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AD42FCB14B51D79020EA5AF1BF7CDF1B /* VisionScanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VisionScanner-umbrella.h"; sourceTree = "<group>"; };
 		B5DE448525F0966FEE14E4D32C133298 /* Pods-VisionScanner_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VisionScanner_Tests-resources.sh"; sourceTree = "<group>"; };
-		BB37871B20AB31FE4BCF7C24F0AF64D5 /* Pods_VisionScanner_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VisionScanner_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE8EA994C24FF6F4688EE21D454491C8 /* VisionScanner.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = VisionScanner.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C332519E4B11F7AF1DB8B47BE4E9421E /* VisionPreviewView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VisionPreviewView.swift; path = VisionScanner/Classes/VisionPreviewView.swift; sourceTree = "<group>"; };
 		C483019C8DD5E3913EA89E6B38489893 /* Pods-VisionScanner_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VisionScanner_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C71145F0FAB975136C4AE591E5EE0984 /* VisionScannerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VisionScannerViewController.swift; path = VisionScanner/Classes/VisionScannerViewController.swift; sourceTree = "<group>"; };
-		C86AAAA83DFD16C88CA325E89C025DE0 /* VisionScanner.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = VisionScanner.storyboard; path = VisionScanner/Assets/VisionScanner.storyboard; sourceTree = "<group>"; };
-		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E607ED5A1F71D5D48C894B9D64C2C3CB /* VisionScanner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VisionScanner.xcconfig; sourceTree = "<group>"; };
-		E869AD3A28B9EFBBAAA50BAD22D8B690 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		F13D48F2F898B4DB35A9DB26233F001A /* VisionScanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VisionScanner-prefix.pch"; sourceTree = "<group>"; };
+		C5677E4D65D8AD95FF8D959289092565 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EA128A704EFE4934B8711016EA8041C0 /* VisionScanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VisionScanner-prefix.pch"; sourceTree = "<group>"; };
 		F4D7EF5197547723B49B7013150F4C6E /* Pods-VisionScanner_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VisionScanner_Tests.modulemap"; sourceTree = "<group>"; };
 		F819939F9DEFC4680B4B3F0AB49E0FB7 /* Pods-VisionScanner_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VisionScanner_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F98D249D194357648B609A0DC09C488E /* VisionScanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VisionScanner.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		07470E5F05AEBEB6EDC5E949E212245F /* Frameworks */ = {
+		15621B626721AF6FE993AE7399EA6011 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69125879A3F928E42111E0A1E98C96A7 /* Foundation.framework in Frameworks */,
+				472DC52BE68B71EF7E3421361A7618EC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78B4515A2D1C6340E0CC1720C45013BD /* Frameworks */ = {
+		C3B8449355DF0E8056D5C7167B97C496 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C453B32EFB337DC45F4F6FE09F44624B /* Foundation.framework in Frameworks */,
+				CCBF40FB791A2F3FC539628AED0C0FB0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CAA6F80BE1D2628FA81BEF521BA1C1EC /* Frameworks */ = {
+		CA8614833C236BF3DACC8FC821935A39 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6E3864B08743931FF52C088F4A4E6A2 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DF05F40AF2F1586D4034829474B952F9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				DA32708CB98F92548CF6D6CC01302D80 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		05BBD99F1425B14E3E315F3B89983292 /* VisionScanner */ = {
-			isa = PBXGroup;
-			children = (
-				189B857E9B767C6FD9D52AC3B6D7603C /* VisionPreviewView.swift */,
-				C71145F0FAB975136C4AE591E5EE0984 /* VisionScannerViewController.swift */,
-				2E2924E761A2E095B279AA24922E7271 /* Pod */,
-				39E08DB2B8FCD79688B7890CFB50D7D7 /* Resources */,
-				D2AF51CF700C38E150D6752D481A5AA8 /* Support Files */,
-			);
-			name = VisionScanner;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		1A36BEA053EBC59D97F644180EB608E0 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				05BBD99F1425B14E3E315F3B89983292 /* VisionScanner */,
+				FF3559A00DF87B5AEB0CD69349199268 /* VisionScanner */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		2E2924E761A2E095B279AA24922E7271 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				724A80D9F27AB29BD646F61B7704E3E2 /* LICENSE */,
-				E869AD3A28B9EFBBAAA50BAD22D8B690 /* README.md */,
-				2B7CE57BB6D953B039B938624BA50987 /* VisionScanner.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		39E08DB2B8FCD79688B7890CFB50D7D7 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				C86AAAA83DFD16C88CA325E89C025DE0 /* VisionScanner.storyboard */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		44D5347904CF754D6785B84253F2574A /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		4FC65A3787DD4623BF1C8C874A0C200A /* Pods-VisionScanner_Tests */ = {
@@ -189,13 +130,20 @@
 			path = "Target Support Files/Pods-VisionScanner_Tests";
 			sourceTree = "<group>";
 		};
-		789B3B189EC768F20D206985551C7E3C /* Products */ = {
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				378969D99CC59AAFB80296F9349366D8 /* Pods_VisionScanner_Example.framework */,
-				BB37871B20AB31FE4BCF7C24F0AF64D5 /* Pods_VisionScanner_Tests.framework */,
-				3A488AE878019541A20A0CCE09D1DA67 /* VisionScanner.bundle */,
-				7262F34CF7CD56D6DD630D3FF3B6C836 /* VisionScanner.framework */,
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5EA435BB75175D15AA407278B1588551 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				684616AC0F2AE587D1FB9196E05677C5 /* Pods_VisionScanner_Example.framework */,
+				080856637D204CB5DCA9335A891CF693 /* Pods_VisionScanner_Tests.framework */,
+				8F86122658BDFA477C6DBE0D7B86FF1D /* VisionScanner.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -206,15 +154,39 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				1A36BEA053EBC59D97F644180EB608E0 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				789B3B189EC768F20D206985551C7E3C /* Products */,
+				5EA435BB75175D15AA407278B1588551 /* Products */,
 				D3AD4EC5BC7F260629CD9CF57DA4AECD /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8834E0630B8FE61E88936E527947291E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6A2C9532D764C18D89B1C25FD5A0690B /* LICENSE */,
+				C5677E4D65D8AD95FF8D959289092565 /* README.md */,
+				BE8EA994C24FF6F4688EE21D454491C8 /* VisionScanner.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B1661E0803E946B4D465EB918A22A80E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0EF8250649998318089FF665E6BB8E06 /* Info.plist */,
+				F98D249D194357648B609A0DC09C488E /* VisionScanner.modulemap */,
+				8FA13ECCB907FB011B0FEE6D56B07543 /* VisionScanner.xcconfig */,
+				04E605101E28A7A28AF8393859CCA4BF /* VisionScanner-dummy.m */,
+				EA128A704EFE4934B8711016EA8041C0 /* VisionScanner-prefix.pch */,
+				AD42FCB14B51D79020EA5AF1BF7CDF1B /* VisionScanner-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/VisionScanner";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				44D5347904CF754D6785B84253F2574A /* iOS */,
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -237,21 +209,6 @@
 			path = "Target Support Files/Pods-VisionScanner_Example";
 			sourceTree = "<group>";
 		};
-		D2AF51CF700C38E150D6752D481A5AA8 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5AB381BF7FB7C645AB4237F57D67DF2D /* Info.plist */,
-				869CCC46AC8DF6966B64BEAFED77520A /* ResourceBundle-VisionScanner-Info.plist */,
-				4F85FFBCB170E3905A599C397A8AC97B /* VisionScanner.modulemap */,
-				E607ED5A1F71D5D48C894B9D64C2C3CB /* VisionScanner.xcconfig */,
-				17E1731620D453D13FA164371796E45A /* VisionScanner-dummy.m */,
-				F13D48F2F898B4DB35A9DB26233F001A /* VisionScanner-prefix.pch */,
-				7F57AA1FBAFF6E5207ED135021F24817 /* VisionScanner-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/VisionScanner";
-			sourceTree = "<group>";
-		};
 		D3AD4EC5BC7F260629CD9CF57DA4AECD /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -261,108 +218,100 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		FF3559A00DF87B5AEB0CD69349199268 /* VisionScanner */ = {
+			isa = PBXGroup;
+			children = (
+				C332519E4B11F7AF1DB8B47BE4E9421E /* VisionPreviewView.swift */,
+				23564E1B8C3384A216E53FB501ADDFE4 /* VisionScannerViewController.swift */,
+				8834E0630B8FE61E88936E527947291E /* Pod */,
+				B1661E0803E946B4D465EB918A22A80E /* Support Files */,
+			);
+			name = VisionScanner;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		667069BAAD6BD5F8505F0BD78F1D0F31 /* Headers */ = {
+		3F3FCC6D0912AE06C932164323B88288 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB979394F97F6FCB78E6AB65ED4F2A14 /* Pods-VisionScanner_Example-umbrella.h in Headers */,
+				3511579C7DF1CB0327005EA79D6C789F /* VisionScanner-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C09C81E1AD3DAB9D665CC7516E8ACCAE /* Headers */ = {
+		6B20A7831575FFCCF5949CF44C506E30 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				707BA211636C77190FAC795CE58718FF /* Pods-VisionScanner_Tests-umbrella.h in Headers */,
+				60F989A072E25C0C98F7066CEA6F96E3 /* Pods-VisionScanner_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC0F3A7A87C3B912D44AA669D04E528C /* Headers */ = {
+		72F0B9C4CC638C10C015922285BDD51A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAF02E92E6419E43B06DF259E93FF021 /* VisionScanner-umbrella.h in Headers */,
+				18B1822DE8E0B735F2BF1E820A410440 /* Pods-VisionScanner_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2735AB72A0EC01130FE4AAAA5E0C40E3 /* Pods-VisionScanner_Tests */ = {
+		1606738F9F75150541843022475A2E1D /* VisionScanner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6F5206DEBC237256B53A46E8228716FB /* Build configuration list for PBXNativeTarget "Pods-VisionScanner_Tests" */;
+			buildConfigurationList = A5285AAF169D41EB65655B4694408337 /* Build configuration list for PBXNativeTarget "VisionScanner" */;
 			buildPhases = (
-				C09C81E1AD3DAB9D665CC7516E8ACCAE /* Headers */,
-				F91165D2C0278D046AA5E543B77A1C7A /* Sources */,
-				78B4515A2D1C6340E0CC1720C45013BD /* Frameworks */,
-				1128790EC1E3C2ABDD016BB0165474EA /* Resources */,
+				9EFA23C25FB49A7235BFCE180E4DD9AD /* Sources */,
+				C3B8449355DF0E8056D5C7167B97C496 /* Frameworks */,
+				0E71BA9462E52140A9406D9283BFCBC3 /* Resources */,
+				3F3FCC6D0912AE06C932164323B88288 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B51CA488AF17089BDEB571967B85CD46 /* PBXTargetDependency */,
-			);
-			name = "Pods-VisionScanner_Tests";
-			productName = "Pods-VisionScanner_Tests";
-			productReference = BB37871B20AB31FE4BCF7C24F0AF64D5 /* Pods_VisionScanner_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		37F173EAAA5EDEC5DD39D2F3DB830EA9 /* Pods-VisionScanner_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A879B4B9E370576B3969A0D8184430FD /* Build configuration list for PBXNativeTarget "Pods-VisionScanner_Example" */;
-			buildPhases = (
-				667069BAAD6BD5F8505F0BD78F1D0F31 /* Headers */,
-				8B41DE529F3B4DCB6D6822F07A84C2F2 /* Sources */,
-				07470E5F05AEBEB6EDC5E949E212245F /* Frameworks */,
-				4C86D010EDF01DEF865B5DA349E2D886 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A97815715DC5136E1F29BF57A2E93D8B /* PBXTargetDependency */,
-			);
-			name = "Pods-VisionScanner_Example";
-			productName = "Pods-VisionScanner_Example";
-			productReference = 378969D99CC59AAFB80296F9349366D8 /* Pods_VisionScanner_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		451BE0FC5C2FAD9A151E2EDC81E2A2B7 /* VisionScanner-VisionScanner */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 137592547E055D7AA08F3D0EAA4D8A14 /* Build configuration list for PBXNativeTarget "VisionScanner-VisionScanner" */;
-			buildPhases = (
-				33258B58FA0E094709D003D84CD62279 /* Sources */,
-				DF05F40AF2F1586D4034829474B952F9 /* Frameworks */,
-				E658B579F6D84FBE8C54E444CAE8EBC4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "VisionScanner-VisionScanner";
-			productName = "VisionScanner-VisionScanner";
-			productReference = 3A488AE878019541A20A0CCE09D1DA67 /* VisionScanner.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		DB2B45F0AA3716ADAE61E85CD8BC3E3C /* VisionScanner */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 643FC9DEADB4B21451A57C42B5949FB4 /* Build configuration list for PBXNativeTarget "VisionScanner" */;
-			buildPhases = (
-				EC0F3A7A87C3B912D44AA669D04E528C /* Headers */,
-				B9F6D1A992500BC1A325515C86AFA862 /* Sources */,
-				CAA6F80BE1D2628FA81BEF521BA1C1EC /* Frameworks */,
-				42A84AB6DF494ACA59D0A92BB5B73347 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				263698D20628397395C27A13A1D16EF4 /* PBXTargetDependency */,
 			);
 			name = VisionScanner;
 			productName = VisionScanner;
-			productReference = 7262F34CF7CD56D6DD630D3FF3B6C836 /* VisionScanner.framework */;
+			productReference = 8F86122658BDFA477C6DBE0D7B86FF1D /* VisionScanner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2E08F959898317F8E81717ABAEAF24D0 /* Pods-VisionScanner_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95C21AF42BCEDD706C64F8D9C2C702AD /* Build configuration list for PBXNativeTarget "Pods-VisionScanner_Tests" */;
+			buildPhases = (
+				19E1F3AA7DAA1C56A2D991C6470381E2 /* Sources */,
+				15621B626721AF6FE993AE7399EA6011 /* Frameworks */,
+				6B20A7831575FFCCF5949CF44C506E30 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2293F403EF755CED3FFEBC6AFE27E154 /* PBXTargetDependency */,
+			);
+			name = "Pods-VisionScanner_Tests";
+			productName = "Pods-VisionScanner_Tests";
+			productReference = 080856637D204CB5DCA9335A891CF693 /* Pods_VisionScanner_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BB713D57828038872BFE8BA58BC1A671 /* Pods-VisionScanner_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE10C6F4ECC57C9DF0E56A0B5942A884 /* Build configuration list for PBXNativeTarget "Pods-VisionScanner_Example" */;
+			buildPhases = (
+				4974C2EED92736C3648842F1650F8EA7 /* Sources */,
+				CA8614833C236BF3DACC8FC821935A39 /* Frameworks */,
+				72F0B9C4CC638C10C015922285BDD51A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95727A3A2C373B24E09E43DA3E4ED598 /* PBXTargetDependency */,
+			);
+			name = "Pods-VisionScanner_Example";
+			productName = "Pods-VisionScanner_Example";
+			productReference = 684616AC0F2AE587D1FB9196E05677C5 /* Pods_VisionScanner_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -382,229 +331,73 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 789B3B189EC768F20D206985551C7E3C /* Products */;
+			productRefGroup = 5EA435BB75175D15AA407278B1588551 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				37F173EAAA5EDEC5DD39D2F3DB830EA9 /* Pods-VisionScanner_Example */,
-				2735AB72A0EC01130FE4AAAA5E0C40E3 /* Pods-VisionScanner_Tests */,
-				DB2B45F0AA3716ADAE61E85CD8BC3E3C /* VisionScanner */,
-				451BE0FC5C2FAD9A151E2EDC81E2A2B7 /* VisionScanner-VisionScanner */,
+				BB713D57828038872BFE8BA58BC1A671 /* Pods-VisionScanner_Example */,
+				2E08F959898317F8E81717ABAEAF24D0 /* Pods-VisionScanner_Tests */,
+				1606738F9F75150541843022475A2E1D /* VisionScanner */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1128790EC1E3C2ABDD016BB0165474EA /* Resources */ = {
+		0E71BA9462E52140A9406D9283BFCBC3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		42A84AB6DF494ACA59D0A92BB5B73347 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				01A1EE583CBEAEBF1B316613430740A2 /* VisionScanner.bundle in Resources */,
-				41A65BAB218C25B2007D7C8A /* VisionScanner.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4C86D010EDF01DEF865B5DA349E2D886 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E658B579F6D84FBE8C54E444CAE8EBC4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				41A65BAC218C269D007D7C8A /* VisionScanner.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		33258B58FA0E094709D003D84CD62279 /* Sources */ = {
+		19E1F3AA7DAA1C56A2D991C6470381E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AC20C473F048AB8B38402F094FDF824 /* Pods-VisionScanner_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8B41DE529F3B4DCB6D6822F07A84C2F2 /* Sources */ = {
+		4974C2EED92736C3648842F1650F8EA7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB30CC454F7CC3BEC881E20487995B6E /* Pods-VisionScanner_Example-dummy.m in Sources */,
+				89B634B243B6B234EA2633F11007B08F /* Pods-VisionScanner_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B9F6D1A992500BC1A325515C86AFA862 /* Sources */ = {
+		9EFA23C25FB49A7235BFCE180E4DD9AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B048DEC4DBED4B13098F22953432627 /* VisionPreviewView.swift in Sources */,
-				48B692F775109BB2EEA4A958AB984440 /* VisionScanner-dummy.m in Sources */,
-				B02231E6B17C0C52BDBD529DE736EC6A /* VisionScannerViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F91165D2C0278D046AA5E543B77A1C7A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				687B2F67FAB687F505E88B40EFEC0C90 /* Pods-VisionScanner_Tests-dummy.m in Sources */,
+				F2DABD934F3A4F45A3A7FD21889C7E42 /* VisionPreviewView.swift in Sources */,
+				BDE6E30076D03C5F5198D3C73F556629 /* VisionScanner-dummy.m in Sources */,
+				2B01650AC4B6A6A839FCF2ADBA478AEE /* VisionScannerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		263698D20628397395C27A13A1D16EF4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "VisionScanner-VisionScanner";
-			target = 451BE0FC5C2FAD9A151E2EDC81E2A2B7 /* VisionScanner-VisionScanner */;
-			targetProxy = DF8E40DF9357D68BA090F9A1EE6456DA /* PBXContainerItemProxy */;
-		};
-		A97815715DC5136E1F29BF57A2E93D8B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = VisionScanner;
-			target = DB2B45F0AA3716ADAE61E85CD8BC3E3C /* VisionScanner */;
-			targetProxy = B1941D0B5531AE3A71DAE9C9C500A2E2 /* PBXContainerItemProxy */;
-		};
-		B51CA488AF17089BDEB571967B85CD46 /* PBXTargetDependency */ = {
+		2293F403EF755CED3FFEBC6AFE27E154 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-VisionScanner_Example";
-			target = 37F173EAAA5EDEC5DD39D2F3DB830EA9 /* Pods-VisionScanner_Example */;
-			targetProxy = AC216F3FB126A224544A2BD1CF99BADE /* PBXContainerItemProxy */;
+			target = BB713D57828038872BFE8BA58BC1A671 /* Pods-VisionScanner_Example */;
+			targetProxy = 2E4A0437B02FBC76B93B3BD7BD5ECE66 /* PBXContainerItemProxy */;
+		};
+		95727A3A2C373B24E09E43DA3E4ED598 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VisionScanner;
+			target = 1606738F9F75150541843022475A2E1D /* VisionScanner */;
+			targetProxy = 72BEA66C5AAEF0890678B72FC8471CD2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1F3678C337A4C801F6340C2C01FB8586 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C483019C8DD5E3913EA89E6B38489893 /* Pods-VisionScanner_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-VisionScanner_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-VisionScanner_Tests/Pods-VisionScanner_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2691FF592296C530B8037E88C94BF8A0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E607ED5A1F71D5D48C894B9D64C2C3CB /* VisionScanner.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/VisionScanner";
-				INFOPLIST_FILE = "Target Support Files/VisionScanner/ResourceBundle-VisionScanner-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = VisionScanner;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		6DDF0CA31BB0110F4A4FA8A032786190 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E607ED5A1F71D5D48C894B9D64C2C3CB /* VisionScanner.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/VisionScanner/VisionScanner-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/VisionScanner/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/VisionScanner/VisionScanner.modulemap";
-				PRODUCT_MODULE_NAME = VisionScanner;
-				PRODUCT_NAME = VisionScanner;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		80A97F822DCB1544D0023FA9C9A39776 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 84D9776D3F6DB4CE2CE73009AC9788D0 /* Pods-VisionScanner_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-VisionScanner_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-VisionScanner_Example/Pods-VisionScanner_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8DFC9796FA9E6BCF680E1E0B1780DD0D /* Release */ = {
+		08638A96A528B1EC32DE62F8A728389D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -656,48 +449,13 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		8EF03606440103B193A2DCB589020547 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E607ED5A1F71D5D48C894B9D64C2C3CB /* VisionScanner.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/VisionScanner/VisionScanner-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/VisionScanner/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/VisionScanner/VisionScanner.modulemap";
-				PRODUCT_MODULE_NAME = VisionScanner;
-				PRODUCT_NAME = VisionScanner;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		BD8981D76FE5684BB0BD9C63184481D4 /* Release */ = {
+		1082A8B00FAB7ADD812EA88F7D2BE517 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 283FAD4B4D267C25546660EE89A21713 /* Pods-VisionScanner_Example.release.xcconfig */;
 			buildSettings = {
@@ -725,6 +483,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -732,7 +491,7 @@
 			};
 			name = Release;
 		};
-		D0FC577AC61C2AA8649139D410D1691D /* Debug */ = {
+		14EA5DE5194555D452D76EB69B693B28 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 100616C62B0D27CA87D6443EB171BA56 /* Pods-VisionScanner_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -766,7 +525,110 @@
 			};
 			name = Debug;
 		};
-		E19471FE7E209D0818DAFB22D649A6E9 /* Debug */ = {
+		1CA41D6466B5B548641BFA08093A282C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84D9776D3F6DB4CE2CE73009AC9788D0 /* Pods-VisionScanner_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VisionScanner_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VisionScanner_Example/Pods-VisionScanner_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1ED1FD7AB368152F70AA41B558F0A08A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FA13ECCB907FB011B0FEE6D56B07543 /* VisionScanner.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VisionScanner/VisionScanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VisionScanner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VisionScanner/VisionScanner.modulemap";
+				PRODUCT_MODULE_NAME = VisionScanner;
+				PRODUCT_NAME = VisionScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		79D57212B821F66128DD0558DE2DE81B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FA13ECCB907FB011B0FEE6D56B07543 /* VisionScanner.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VisionScanner/VisionScanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VisionScanner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VisionScanner/VisionScanner.modulemap";
+				PRODUCT_MODULE_NAME = VisionScanner;
+				PRODUCT_NAME = VisionScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9DAE5233986C01ADB6E67169C53A3FD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -820,78 +682,85 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		EAA8837DF161FDDD9027C36EDE51D3EB /* Debug */ = {
+		A3D4B4B78C034774BF975CF3F695377C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E607ED5A1F71D5D48C894B9D64C2C3CB /* VisionScanner.xcconfig */;
+			baseConfigurationReference = C483019C8DD5E3913EA89E6B38489893 /* Pods-VisionScanner_Tests.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/VisionScanner";
-				INFOPLIST_FILE = "Target Support Files/VisionScanner/ResourceBundle-VisionScanner-Info.plist";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VisionScanner_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = VisionScanner;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VisionScanner_Tests/Pods-VisionScanner_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		137592547E055D7AA08F3D0EAA4D8A14 /* Build configuration list for PBXNativeTarget "VisionScanner-VisionScanner" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EAA8837DF161FDDD9027C36EDE51D3EB /* Debug */,
-				2691FF592296C530B8037E88C94BF8A0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E19471FE7E209D0818DAFB22D649A6E9 /* Debug */,
-				8DFC9796FA9E6BCF680E1E0B1780DD0D /* Release */,
+				9DAE5233986C01ADB6E67169C53A3FD2 /* Debug */,
+				08638A96A528B1EC32DE62F8A728389D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		643FC9DEADB4B21451A57C42B5949FB4 /* Build configuration list for PBXNativeTarget "VisionScanner" */ = {
+		95C21AF42BCEDD706C64F8D9C2C702AD /* Build configuration list for PBXNativeTarget "Pods-VisionScanner_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8EF03606440103B193A2DCB589020547 /* Debug */,
-				6DDF0CA31BB0110F4A4FA8A032786190 /* Release */,
+				14EA5DE5194555D452D76EB69B693B28 /* Debug */,
+				A3D4B4B78C034774BF975CF3F695377C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6F5206DEBC237256B53A46E8228716FB /* Build configuration list for PBXNativeTarget "Pods-VisionScanner_Tests" */ = {
+		A5285AAF169D41EB65655B4694408337 /* Build configuration list for PBXNativeTarget "VisionScanner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D0FC577AC61C2AA8649139D410D1691D /* Debug */,
-				1F3678C337A4C801F6340C2C01FB8586 /* Release */,
+				1ED1FD7AB368152F70AA41B558F0A08A /* Debug */,
+				79D57212B821F66128DD0558DE2DE81B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A879B4B9E370576B3969A0D8184430FD /* Build configuration list for PBXNativeTarget "Pods-VisionScanner_Example" */ = {
+		EE10C6F4ECC57C9DF0E56A0B5942A884 /* Build configuration list for PBXNativeTarget "Pods-VisionScanner_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				80A97F822DCB1544D0023FA9C9A39776 /* Debug */,
-				BD8981D76FE5684BB0BD9C63184481D4 /* Release */,
+				1CA41D6466B5B548641BFA08093A282C /* Debug */,
+				1082A8B00FAB7ADD812EA88F7D2BE517 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

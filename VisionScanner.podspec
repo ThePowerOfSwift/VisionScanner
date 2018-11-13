@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'VisionScanner'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Start scanning barcodes using Apple\'s Vision Framework.'
 
   s.description      = <<-DESC
@@ -28,8 +28,5 @@ func startScan(completion:).
   s.swift_version   = '4.2'
                        
   s.source_files = 'VisionScanner/Classes/**/*'
-  
-  s.resource_bundles = {
-     'VisionScanner' => ['VisionScanner/Assets/*.storyboard']
-  }
+
 end
