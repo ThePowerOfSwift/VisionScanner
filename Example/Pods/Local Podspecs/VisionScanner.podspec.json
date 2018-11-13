@@ -20,9 +20,5 @@
   },
   "swift_version": "4.2",
   "source_files": "VisionScanner/Classes/**/*",
-  "resource_bundles": {
-    "VisionScanner": [
-      "VisionScanner/Assets/*.storyboard"
-    ]
-  }
+  "resources": "VisionScanner/**/*.{png,json,xcassets,storyboard}"
 }

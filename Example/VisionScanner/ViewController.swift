@@ -19,17 +19,21 @@ class ViewController: UIViewController, VisionScannerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        scanner = VisionScannerViewController.instantiate(logger: logger)
+        scanner = VisionScannerViewController(logger: logger)
         scanner.visionDelegate = self
         
         addChild(scanner)
         containerView.addSubview(scanner.view)
+        scanner.view.translatesAutoresizingMaskIntoConstraints = false
+        scanner.view.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
+        scanner.view.leftAnchor.constraint(equalTo: view.leftAnchor).isActive = true
+        scanner.view.rightAnchor.constraint(equalTo: view.rightAnchor).isActive = true
+        scanner.view.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
         scanner.didMove(toParent: self)
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        scanner.view.frame = containerView.bounds
     }
     
     override func viewWillDisappear(_ animated: Bool) {

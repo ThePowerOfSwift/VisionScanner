@@ -28,6 +28,5 @@ func startScan(completion:).
   s.swift_version   = '4.2'
                        
   s.source_files = 'VisionScanner/Classes/**/*'
-  s.resources = 'VisionScanner/**/*.{png,json,xcassets,storyboard}'
 
 end
