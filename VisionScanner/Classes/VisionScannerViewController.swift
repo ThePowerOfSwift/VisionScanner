@@ -38,7 +38,7 @@ public class VisionScannerViewController: UIViewController {
     public var currentState: VisionScannerState = .stopped
     
     public class func instantiate(logger:VisionScannerLogger? = nil) -> VisionScannerViewController {
-        let storyboardBundle = Bundle(identifier: "org.cocoapods.VisionScanner")        
+        let storyboardBundle = Bundle(for: VisionScannerViewController.self)
         let storyboard = UIStoryboard(name: "VisionScanner", bundle: storyboardBundle)
         guard let vc = storyboard.instantiateViewController(withIdentifier: "VisionScannerViewController") as? VisionScannerViewController
               else { fatalError("Could not found VisionScannerViewController") }
