@@ -48,11 +48,13 @@ public class VisionScannerViewController: UIViewController {
 
     override public func viewDidLoad() {
         super.viewDidLoad()
+        
         initUI()
         configureVideoCaptureSession()
     }
     
     private func initUI() {
+        view.backgroundColor = .clear
         view.addSubview(previewView)
         previewView.translatesAutoresizingMaskIntoConstraints = false
         previewView.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
@@ -74,7 +76,6 @@ public class VisionScannerViewController: UIViewController {
         
         captureVideoOutput = AVCaptureVideoDataOutput()
         captureVideoOutput.videoSettings = [kCVPixelBufferPixelFormatTypeKey as String: Int(kCVPixelFormatType_32BGRA)]
-        captureVideoOutput.alwaysDiscardsLateVideoFrames = true
         
         captureSession = AVCaptureSession()
         previewView.session = captureSession
@@ -90,7 +91,7 @@ public class VisionScannerViewController: UIViewController {
         }
         
         captureSession.beginConfiguration()
-        captureSession.sessionPreset = AVCaptureSession.Preset.medium
+        captureSession.sessionPreset = .photo
         captureSession.addInput(videoInput)
         captureSession.addOutput(captureVideoOutput)
         captureSession.commitConfiguration()
@@ -112,6 +113,9 @@ public class VisionScannerViewController: UIViewController {
                })
     }
 
+    deinit {
+        stopScan()
+    }
     
     public func stopScan(completion: (()->Void)? = nil) {
         guard captureSession != nil else {

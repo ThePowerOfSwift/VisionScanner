@@ -25,12 +25,20 @@ internal class VisionPreviewView : UIView {
     
     var session: AVCaptureSession? {
         get { return videoPreviewLayer.session }
-        set { videoPreviewLayer.session = newValue }
+        set {
+            videoPreviewLayer.videoGravity = .resizeAspectFill
+            videoPreviewLayer.session = newValue
+        }
     }
   
     func clear() {
         sublayers = layer.sublayers
         layer.sublayers = nil
+    }
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        videoPreviewLayer.frame = bounds
     }
     
     func updateVideoOrientationForDeviceOrientation() {
