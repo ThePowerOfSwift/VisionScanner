@@ -91,7 +91,7 @@ public class VisionScannerViewController: UIViewController {
         }
         
         captureSession.beginConfiguration()
-        captureSession.sessionPreset = AVCaptureSession.Preset.photo
+        captureSession.sessionPreset = .photo
         captureSession.addInput(videoInput)
         captureSession.addOutput(captureVideoOutput)
         captureSession.commitConfiguration()
