@@ -26,7 +26,7 @@ internal class VisionPreviewView : UIView {
     var session: AVCaptureSession? {
         get { return videoPreviewLayer.session }
         set {
-            videoPreviewLayer.videoGravity = .resize
+            videoPreviewLayer.videoGravity = .resizeAspectFill
             videoPreviewLayer.session = newValue
         }
     }
